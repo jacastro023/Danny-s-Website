@@ -4,7 +4,8 @@
     left: 0;
     right: 0;
     padding: 3px;
-    background: #B8B8B8;
     text-align: center;
+    background: rgb(253,29,29);
+    background: radial-gradient(circle, red 0%, yellow 15%, blue 30%, violet 50%, green 70%, red 80%,blue 100% );
   }
   

@@ -1,3 +1,16 @@
 #nav-dropdown-dark-example{
     color: white;
 }
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-brand>img {
+    padding: 7px 14px;
+    width: 80px;
+  }
+
+.navbar {
+    background: rgb(253,29,29);
+background: radial-gradient(circle, red 0%, yellow 15%, blue 30%, violet 50%, green 70%, red 80%,blue 100% );
+}
