@@ -19,9 +19,10 @@ function App() {
           <Route exact path="/Cars" component={Cars} />
           <Route exact path="/Legos" component={Legos} />
           <Route exact path="/Roblox" component={Roblox} />
-          <Footer />
         </Wrapper>
+        <Footer />
       </div>
+      {/* <Footer /> */}
     </Router>
   );
 }
