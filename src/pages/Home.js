@@ -5,10 +5,11 @@ import "../components/background/style.css";
 
 function Home() {
   return (
-    <div className="div">
-      hello
+    <div className="background1">
+    <div>
       <Model1></Model1>
-
+    </div>
+    <Model1></Model1>
     </div>
   );
 }
