@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
 import {Container, Col, Row } from 'react-bootstrap';
-import catmage from "../images/roblox/catmage.png"
-import holyknight from "../images/roblox/holyknight.png"
+import catmage from "../images/roblox/LuckyGatito.png"
+import holyknight from "../images/roblox/lattishroyalguard.png"
 
 function robloxtoys() {
   return (
