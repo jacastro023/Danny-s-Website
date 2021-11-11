@@ -13,6 +13,10 @@
     font-size: 60px;
 }
 
+.introcontainer{
+    min-height: 637px;
+}
+
 @media only screen and (min-width: 1200px) {
     .img{
         width:500px;

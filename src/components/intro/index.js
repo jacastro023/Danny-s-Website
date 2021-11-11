@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Model1() {
   return (
-      <Container>
+      <Container className="introcontainer">
   <Row>
     <Col><img src={danny} alt="3d model" className="img" rounded></img></Col>
     <Col><div className="dannyintro">
