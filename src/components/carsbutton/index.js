@@ -4,18 +4,18 @@ import Seecars from "../onclickcarsbutton/seecars.js";
 import Seesets from "../onclickcarsbutton/seesets.js";
 import React, { Component } from "react";
 
-
 class carsbutton extends Component {
   constructor() {
     super();
     this.state = {
       name: "React",
       showSeecars: false,
-      showSeesets: false
+      showSeesets: false,
     };
     this.hideComponent = this.hideComponent.bind(this);
   }
 
+  
   hideComponent(name) {
     console.log(name);
     switch (name) {

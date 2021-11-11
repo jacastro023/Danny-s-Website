@@ -1,14 +1,16 @@
   .background2 {
     width: 100%;
-    height: 100vh;
+    /* height: 100%; */
     display: block;
     position: relative;
-   
-  }
-  .background2::after{  
   
+  }
+.legocontainer{
+  min-height: 637px;
+}
+
+  .background2::after{  
     background-image: url(lego.jpg);
-      /* background-repeat: repea !important; */
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;

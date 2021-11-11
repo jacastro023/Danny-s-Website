@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import "./style.css";
+import {Container} from 'react-bootstrap';
+import Carcards from "../carcards/index.js"
 
 class seecars extends Component {
   constructor() {
@@ -9,7 +12,11 @@ class seecars extends Component {
   }
 
   render() {
-    return <div>see cars</div>;
+    return <div className="secars">
+      <Container>
+        <Carcards></Carcards>
+</Container>
+    </div>;
   }
 }
 

@@ -1,0 +1,80 @@
+.legosets1, .legosets2{
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.legocontainer{
+    text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+    .legosets1{
+        margin-top: 30px;
+        width: 400px;
+        height: 400px;
+    }
+    .legosets2{
+        margin-top: 30px;
+        width: 400px;
+        height: 400px;
+        float: right;
+    }
+}  
+
+@media only screen and (max-width: 992px) {
+    .legosets1{
+        margin-top: 30px;
+        width: 320px;
+        height: 400px;
+    }
+    .legosets2{
+        margin-top: 30px;
+        width: 320px;
+        height: 400px;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .legosets1{
+        margin-top: 30px;
+        width: 255px;
+        height: 315px;
+    }
+    .legosets2{
+        margin-top: 30px;
+        width: 255px;
+        height: 315px;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .legosets1{
+        margin-top: 30px;
+        width: 255px;
+        height: 315px;
+    }
+    .legosets2{
+        margin-top: 30px;
+        width: 255px;
+        height: 315px;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .legosets1{
+        margin-top: 30px;
+        width: 255px;
+        height: 315px;
+    }
+    .legosets2{
+        margin-top: 30px;
+        width: 255px;
+        height: 315px;
+        float: none;
+    }
+}
