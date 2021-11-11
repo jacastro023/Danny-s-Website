@@ -19,7 +19,6 @@ import redbraid from "../images/roblox/redbraid.png"
 import SirMing from "../images/roblox/SirMing.png"
 import Survivethekillercorruptcupid from "../images/roblox/Survivethekillercorruptcupid.png"
 import theCelestial from "../images/roblox/theCelestial.png"
-// import TwoPlayerKingdomTycoonBlacksmith from "../images/roblox/TwoPlayerKingdomTycoonBlacksmith.png"
 import USCPFSoldier from "../images/roblox/USCPFSoldier.png"
 
 function robloxtoys() {
@@ -133,14 +132,6 @@ function robloxtoys() {
       src={Survivethekillercorruptcupid}
       alt="Roblox Toy"
     /></Col>
-    {/* <Col>
-    <img className="imgroblox"
-      src={TwoPlayerKingdomTycoonBlacksmith}
-      alt="Roblox Toy"
-    />
-    </Col> */}
-  </Row>
-  <Row>
     <Col>    <img className="imgroblox"
       src={USCPFSoldier}
       alt="Roblox Toy"
