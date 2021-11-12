@@ -23,7 +23,8 @@
         height: auto;
     }
     .dannyintro{
-        font-size: 60px;
+        font-size: 85px;
+        text-align: center;
     }
 }  
 
@@ -33,7 +34,8 @@
         height: auto;
     }
     .dannyintro{
-        font-size: 50px;
+        font-size: 66px;
+        text-align: center;
     }
 }
 
@@ -44,13 +46,18 @@
         margin-top:30px;
     }
     .dannyintro{
-        font-size: 40px;
+        font-size: 50px;
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .img{
         width:200px;
+    }
+    .dannyintro{
+        font-size: 40px;
+        text-align: center;
     }
 }
 
@@ -59,6 +66,7 @@
         width:200px;
     }
     .dannyintro{
-        font-size: 20px;
+        font-size: 30px;
+        text-align: center;
     }
 }

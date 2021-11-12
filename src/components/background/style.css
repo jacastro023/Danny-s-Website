@@ -1,16 +1,13 @@
   .background1 {
     width: 100%;
-    /* height: 100vh; */
     display: block;
     position: relative;
-   
   }
 
   body, html{
     height: 100%;
   }
   .background1::after{  
-  
     background-image: url(background2.png), url(background.jpg);
       /* background-repeat: repea !important; */
       background-size: contain, cover;
@@ -25,3 +22,36 @@
       position: absolute;
       z-index: -1;
    }
+
+   @media only screen and (min-width: 1200px) {
+    .background1 {
+      width: 100%;
+      display: block;
+      position: relative;
+     min-height: 1320px;
+    }
+  }  
+  
+  @media only screen and (max-width: 992px) {
+    .background1 {
+     min-height: 1126px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .background1 {
+      min-height: 830px;
+     }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .background1 {
+      min-height: 665px;
+     }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .background1 {
+      min-height: 635px;
+     }
+  }
