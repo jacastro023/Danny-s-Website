@@ -20,6 +20,12 @@ import SirMing from "../images/roblox/SirMing.png"
 import Survivethekillercorruptcupid from "../images/roblox/Survivethekillercorruptcupid.png"
 import theCelestial from "../images/roblox/theCelestial.png"
 import USCPFSoldier from "../images/roblox/USCPFSoldier.png"
+import thegamer101 from "../images/roblox/thegamer101.png"
+import seranok from "../images/roblox/seranok.png"
+import merely from "../images/roblox/merely.png"
+import loleris from "../images/roblox/loleris.png"
+import litozinnamon from "../images/roblox/litozinnamon.png"
+import gusmanak from "../images/roblox/gusmanak.png"
 
 function robloxtoys() {
   return (
@@ -134,6 +140,38 @@ function robloxtoys() {
     /></Col>
     <Col>    <img className="imgroblox"
       src={USCPFSoldier}
+      alt="Roblox Toy"
+    /></Col>
+  </Row>
+  <Row className="row">
+    <Col>
+    <img className="imgroblox"
+      src={gusmanak}
+      alt="Roblox Toy"
+    />
+    </Col>
+    <Col><img className="imgroblox"
+      src={litozinnamon}
+      alt="Roblox Toy"
+    /></Col>
+    <Col>    <img className="imgroblox"
+      src={loleris}
+      alt="Roblox Toy"
+    /></Col>
+  </Row>
+  <Row className="row">
+    <Col>
+    <img className="imgroblox"
+      src={merely}
+      alt="Roblox Toy"
+    />
+    </Col>
+    <Col><img className="imgroblox"
+      src={seranok}
+      alt="Roblox Toy"
+    /></Col>
+    <Col>    <img className="imgroblox"
+      src={thegamer101}
       alt="Roblox Toy"
     /></Col>
   </Row>
