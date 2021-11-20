@@ -12,6 +12,7 @@
 .IDset{
     width: 757px;
     height: 663px;
+    margin-bottom: -140px;
 }
 
 .col{
@@ -21,6 +22,10 @@
 .row1{
     padding-top: 20px;
 }
+.imgcar{
+    width: 400px;
+    height: 400px;
+  }
 
 .idheading{ color: #fff; font-family: 'Righteous', cursive; font-size: 25px; font-weight: normal; text-transform: uppercase; text-shadow: 2px 2px 0 #000; text-align: center; }
 
@@ -48,6 +53,11 @@
         height: 550px;
         float: right;
     }
+    .IDset{
+        width: 730px;
+        height: 620px;
+        margin-bottom: -140px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -59,10 +69,18 @@
     .carsset2{
         width: 348px;
         height: 550px;
-        float: right;
+        float: none;
     }
     .secars{
         text-align: center;
+        }
+        .IDset{
+            width: 555px;
+            height: 620px;
+            margin-bottom: -140px;
+        }
+        .carsetsdiv{
+            text-align: center;
         }
 }
 
@@ -82,8 +100,8 @@
     }
 
     .IDset{
-    width: 520px;
-    height: 660px;
+    width: 410px;
+    height: 620px;
     }
    .secars{
     text-align: center;
@@ -92,14 +110,32 @@
         width: 400px;
         margin-bottom: -100px;
     }
+    .imgcar{
+        width: 400px;
+        height: 400px;
+      }
 }
 
 @media only screen and (max-width: 420px) {
     .IDset{
-        width: 390px;
-        height: 600px;
+        width: 340px;
+        height: 560px;
     }
     .secars{
         text-align: center;
+    }
+    .carsset1{
+        width: 315px;
+        height: 550px;
+        /* float: left; */
+    }
+    .carsset2{
+        width: 315px;
+        height: 550px;
+        float: none;
+    }
+    .imgcar {
+        width: 300px;
+        height: 370px;
     }
 }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
+import { Carousel } from 'react-bootstrap';
 import { Container, Col, Row } from 'react-bootstrap';
 import Bigwheel from "../images/carsets/bigwheel.png";
 import carlot from "../images/carsets/carlot.png";
@@ -14,6 +15,12 @@ import policestation from "../images/carsets/policestation.png";
 import shark from "../images/carsets/shark.png";
 import skyscraper from "../images/carsets/skyscraper.png";
 import underwater from "../images/carsets/underwater.png";
+import idcar1 from "../images/idcars/arachnorod.png"
+import idcar2 from "../images/idcars/fxb27.png"
+import idcar3 from "../images/idcars/gt-hunter.png"
+import idcar4 from "../images/idcars/rally-finale.png"
+import idcar5 from "../images/idcars/super-blitzen.png"
+import idcar6 from "../images/idcars/twin-mill.png"
 
 class seesets extends Component {
   constructor() {
@@ -35,6 +42,73 @@ class seesets extends Component {
       />
       </Col>
       </Row>
+      <div className="idheading"> These are my ID cars:</div>
+      <Carousel>
+  <Carousel.Item>
+    <img
+      className="imgcar"
+      src={idcar1}
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>Arachnorod</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="imgcar"
+      src={idcar2}
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+      <h3>FXB27</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="imgcar"
+      src={idcar3}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>GT Hunter</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="imgcar"
+      src={idcar4}
+      alt="Fourth slide"
+    />
+    <Carousel.Caption>
+      <h3>Rally Finale</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="imgcar"
+      src={idcar5}
+      alt="fifth slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Super Blitzen</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="imgcar"
+      src={idcar6}
+      alt="sixth slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Twin Mill</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
       <div className="carsetsdiv">
       <img className="carsset1"
       src={carlot}
