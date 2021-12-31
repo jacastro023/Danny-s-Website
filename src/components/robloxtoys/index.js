@@ -26,6 +26,33 @@ import merely from "../images/roblox/merely.png"
 import loleris from "../images/roblox/loleris.png"
 import litozinnamon from "../images/roblox/litozinnamon.png"
 import gusmanak from "../images/roblox/gusmanak.png"
+import A1 from "../images/roblox/1.png"
+import A2 from "../images/roblox/2.png"
+import A3 from "../images/roblox/3.png"
+import A4 from "../images/roblox/4.png"
+import A5 from "../images/roblox/5.png"
+import A6 from "../images/roblox/6.png"
+import A7 from "../images/roblox/7.png"
+import A8 from "../images/roblox/8.png"
+import A9 from "../images/roblox/9.png"
+import A10 from "../images/roblox/10.png"
+import A11 from "../images/roblox/11.png"
+import A12 from "../images/roblox/12.png"
+import A13 from "../images/roblox/13.png"
+import A14 from "../images/roblox/14.png"
+import A15 from "../images/roblox/15.png"
+import A16 from "../images/roblox/16.png"
+import A17 from "../images/roblox/17.png"
+import A18 from "../images/roblox/18.png"
+import A19 from "../images/roblox/19.png"
+import Pet1 from "../images/roblox/pet1.png"
+import Pet2 from "../images/roblox/pet2.png"
+import Pet3 from "../images/roblox/pet3.png"
+import Pet4 from "../images/roblox/pet4.png"
+import Pet5 from "../images/roblox/pet5.png"
+import Pet6 from "../images/roblox/pet6.png"
+import Pet7 from "../images/roblox/pet7.png"
+
 
 function robloxtoys() {
   return (
@@ -174,6 +201,167 @@ function robloxtoys() {
       src={thegamer101}
       alt="Roblox Toy"
     /></Col>
+  </Row>
+  <Row className="row">
+    <Col>
+    <img className="imgroblox"
+      src={A1}
+      alt="Roblox Toy"
+    />
+    </Col>
+    <Col><img className="imgroblox"
+      src={A2}
+      alt="Roblox Toy"
+    /></Col>
+    <Col>    <img className="imgroblox"
+      src={A3}
+      alt="Roblox Toy"
+    /></Col>
+  </Row>
+  <Row className="row">
+    <Col>
+    <img className="imgroblox"
+      src={A4}
+      alt="Roblox Toy"
+    />
+    </Col>
+    <Col><img className="imgroblox"
+      src={A5}
+      alt="Roblox Toy"
+    /></Col>
+    <Col>    <img className="imgroblox"
+      src={A6}
+      alt="Roblox Toy"
+    /></Col>
+  </Row>
+  <Row className="row">
+    <Col>
+    <img className="imgroblox"
+      src={A7}
+      alt="Roblox Toy"
+    />
+    </Col>
+    <Col><img className="imgroblox"
+      src={A8}
+      alt="Roblox Toy"
+    /></Col>
+    <Col>    <img className="imgroblox"
+      src={A9}
+      alt="Roblox Toy"
+    /></Col>
+  </Row>
+  <Row className="row">
+    <Col>
+    <img className="imgroblox"
+      src={A10}
+      alt="Roblox Toy"
+    />
+    </Col>
+    <Col><img className="imgroblox"
+      src={A11}
+      alt="Roblox Toy"
+    /></Col>
+    <Col>    <img className="imgroblox"
+      src={A12}
+      alt="Roblox Toy"
+    /></Col>
+  </Row>
+  <Row className="row">
+    <Col>
+    <img className="imgroblox"
+      src={A13}
+      alt="Roblox Toy"
+    />
+    </Col>
+    <Col><img className="imgroblox"
+      src={A14}
+      alt="Roblox Toy"
+    /></Col>
+    <Col>    <img className="imgroblox"
+      src={A15}
+      alt="Roblox Toy"
+    /></Col>
+  </Row>
+  <Row className="row">
+    <Col>
+    <img className="imgroblox"
+      src={A16}
+      alt="Roblox Toy"
+    />
+    </Col>
+    <Col><img className="imgroblox"
+      src={A17}
+      alt="Roblox Toy"
+    /></Col>
+    <Col>    <img className="imgroblox"
+      src={A18}
+      alt="Roblox Toy"
+    /></Col>
+  </Row>
+  <Row className="row">
+    <Col>
+    <img className="imgroblox"
+      src={A19}
+      alt="Roblox Toy"
+    />
+    </Col>
+    {/* <Col><img className="imgroblox"
+      src={A17}
+      alt="Roblox Toy"
+    /></Col>
+    <Col>    <img className="imgroblox"
+      src={A18}
+      alt="Roblox Toy"
+    /></Col> */}
+  </Row>
+  <div className="ropets"><h1>Roblox Pets</h1>></div>
+  <Row className="row">
+    <Col>
+    <img className="imgroblox"
+      src={Pet1}
+      alt="Roblox Toy"
+    />
+    </Col>
+    <Col><img className="imgroblox"
+      src={Pet2}
+      alt="Roblox Toy"
+    /></Col>
+    <Col>    <img className="imgroblox"
+      src={Pet3}
+      alt="Roblox Toy"
+    /></Col>
+  </Row>
+  <Row className="row">
+    <Col>
+    <img className="imgroblox"
+      src={Pet4}
+      alt="Roblox Toy"
+    />
+    </Col>
+    <Col><img className="imgroblox"
+      src={Pet5}
+      alt="Roblox Toy"
+    /></Col>
+    <Col>    <img className="imgroblox"
+      src={Pet6}
+      alt="Roblox Toy"
+    /></Col>
+  </Row>
+  <Row className="row">
+    <Col>
+    <img className="imgroblox"
+      src={Pet7}
+      alt="Roblox Toy"
+    />
+    </Col>
+    {/* <Col><img className="imgroblox"
+      src={A17}
+      alt="Roblox Toy"
+    /></Col>
+    <Col>    <img className="imgroblox"
+      src={A18}
+      alt="Roblox Toy"
+    /></Col> */}
   </Row>
 </Container>
     </div>
