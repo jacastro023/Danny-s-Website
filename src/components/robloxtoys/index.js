@@ -45,26 +45,26 @@ import A16 from "../images/roblox/16.png"
 import A17 from "../images/roblox/17.png"
 import A18 from "../images/roblox/18.png"
 import A19 from "../images/roblox/19.png"
-import A20 from "../images/roblox/19.png"
-import A21 from "../images/roblox/19.png"
-import A22 from "../images/roblox/19.png"
-import A23 from "../images/roblox/19.png"
-import A24 from "../images/roblox/19.png"
-import A25 from "../images/roblox/19.png"
-import A26 from "../images/roblox/19.png"
-import A27 from "../images/roblox/19.png"
-import A28 from "../images/roblox/19.png"
-import A29 from "../images/roblox/19.png"
-import A30 from "../images/roblox/19.png"
-import A31 from "../images/roblox/19.png"
-import A32 from "../images/roblox/19.png"
-import A33 from "../images/roblox/19.png"
-import A34 from "../images/roblox/19.png"
-import A35 from "../images/roblox/19.png"
-import A36 from "../images/roblox/19.png"
-import A37 from "../images/roblox/19.png"
-import A38 from "../images/roblox/19.png"
-import A39 from "../images/roblox/19.png"
+import A20 from "../images/roblox/20.png"
+import A21 from "../images/roblox/21.png"
+import A22 from "../images/roblox/22.png"
+import A23 from "../images/roblox/23.png"
+import A24 from "../images/roblox/24.png"
+import A25 from "../images/roblox/25.png"
+import A26 from "../images/roblox/26.png"
+import A27 from "../images/roblox/27.png"
+import A28 from "../images/roblox/28.png"
+import A29 from "../images/roblox/29.png"
+import A30 from "../images/roblox/30.png"
+import A31 from "../images/roblox/31.png"
+import A32 from "../images/roblox/32.png"
+import A33 from "../images/roblox/33.png"
+import A34 from "../images/roblox/34.png"
+import A35 from "../images/roblox/35.png"
+import A36 from "../images/roblox/36.png"
+import A37 from "../images/roblox/37.png"
+import A38 from "../images/roblox/38.png"
+import A39 from "../images/roblox/39.png"
 import Pet1 from "../images/roblox/pet1.png"
 import Pet2 from "../images/roblox/pet2.png"
 import Pet3 from "../images/roblox/pet3.png"
@@ -493,14 +493,14 @@ function robloxtoys() {
       alt="Roblox Toy"
     />
     </Col>
-    {/* <Col><img className="imgroblox"
-      src={A17}
+    <Col><img className="imgroblox"
+      src={Pet8}
       alt="Roblox Toy"
     /></Col>
     <Col>    <img className="imgroblox"
-      src={A18}
+      src={Pet9}
       alt="Roblox Toy"
-    /></Col> */}
+    /></Col>
   </Row>
 </Container>
     </div>
