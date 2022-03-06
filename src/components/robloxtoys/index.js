@@ -453,7 +453,7 @@ function robloxtoys() {
       alt="Roblox Toy"
     /></Col>
   </Row>
-  <div className="ropets"><h1>Roblox Pets</h1>></div>
+  <div className="ropets"><h1>Roblox Pets</h1></div>
   <Row className="row">
     <Col>
     <img className="imgroblox"
