@@ -7,14 +7,28 @@ import logo from "./logo.png";
 
 function Header() {
   return (
-    <Navbar variant="dark" bg="dark" expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="/Home">
+    <div>
+      <div className="nav1">    
+    <Navbar bg="dark" variant="dark">
+    <Container>
+    <Navbar.Brand id="logoname" href="/Home">
         <img src={logo} alt="logo" /> Danny <br></br>Gamer
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbar-dark-example" />
-        <Navbar.Collapse id="navbar-dark-example">
-          <Nav class="ml-auto">
+    <Nav id="navitem">
+      <Nav.Link id="homenav" href="/Home">Home</Nav.Link>
+      <Nav.Link id="homenav" href="/Roblox">Roblox</Nav.Link>
+      <Nav.Link id="homenav" href="/Cars">Cars</Nav.Link>
+      <Nav.Link id="homenav" href="/Legos">Legos</Nav.Link>
+    </Nav>
+    </Container>
+  </Navbar>
+  </div>
+  <div className="nav2">
+    <Navbar variant="dark" bg="dark" expand="lg">
+      <Container fluid>
+        <Navbar.Brand id="logoname" href="/Home">
+        <img src={logo} alt="logo" /> Danny <br></br>Gamer
+        </Navbar.Brand>
             <NavDropdown
               id="nav-dropdown-dark-example"
               title="Menu"
@@ -25,10 +39,10 @@ function Header() {
               <NavDropdown.Item href="/Cars">Cars</NavDropdown.Item>
               <NavDropdown.Item href="/Legos">Legos</NavDropdown.Item>
             </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
+    </div>
   );
 }
 

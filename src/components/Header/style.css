@@ -1,16 +1,37 @@
 #nav-dropdown-dark-example{
     color: white;
+    font-size: xx-large;
 }
+
+#logoname{
+  font-size: xx-large;
+}
+
+#homenav {
+  color: white;
+  font-size: xx-large;
+}
+
 .navbar-brand {
     display: flex;
     align-items: center;
   }
   .navbar-brand>img {
     padding: 7px 14px;
-    width: 80px;
+    width: 100px;
   }
 
 .navbar {
     background: rgb(253,29,29);
 background: radial-gradient(circle, red 0%, yellow 15%, blue 30%, violet 50%, green 70%, red 80%,blue 100% );
+}
+
+.nav2{
+  display: none;
+  width: 100%;
+}
+
+@media (max-width: 650px) {
+  .nav1{ display: none; }
+  .nav2{ display: inline-block; }
 }
